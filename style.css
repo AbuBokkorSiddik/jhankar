@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;margin: 0;
+}
+a,a:hover{
+    color: #888;
+    text-decoration: none;
+}
+header .navbar-nav li a{
+    font-size: 16px;
+    color: #ededed;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header .navbar-nav li a:hover{
+    color: #24ddb3 !important;
+}
+/* header ends */
+.bannar{
+    background-image: url("images/bannar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+}
+.bannar-overlay{
+    padding: 200px 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannar-text h1{
+    font-size: 70px;
+    color: #24ddb3;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bannar-button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background:#24ddb3;
+    border: 1px solid #888;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: .5s;
+}
+.bannar-text a:hover{
+    background: transparent;
+    color: #24ddb3;
+    border: 1px solid #888;
+}
+/* about us */
+.about-us{
+    padding: 40px 0;
+}
+.section-title{
+    padding: 60px 0;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-image{
+    width: 100%;
+}
+.about-image img{
+    width: 100%;
+    box-shadow: 1px 1px #888;
+}
+.about-text{
+    padding: 10px;
+}
+.about-text h3{
+text-transform: uppercase;
+font-weight: 600;
+padding: 5px 0;
+}
+.about-text p{
+font-size: 15px;
+color: #888;
+padding: 10px 0;
+padding-bottom: 30px;
+}
+/* services */
+.works,
+.service{
+    padding-bottom: 40px;
+}
+.full-service{
+    padding: 40px;
+    display: flex;
+}
+.service-icon{
+    background: #24ddb3;
+    height: 70px;
+    width: 70px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.service-text{
+    width: 80%;
+    padding: 10px;
+}
+.service-text h5{
+    font-size: 16px;
+    color: #888;
+    font-weight: 700;
+    padding: 0;
+    text-transform: uppercase;
+}
+.service-text p{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #888;
+}
+.full-service:hover{
+    box-shadow: 0px 0px 1px 1px #24ddb3;
+}
+/* work  */
+.work-image{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.work-image img{
+    width: 100%;
+}
+.work-overlay{
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        transition: all .4s ease;
+        transform: scale(0);
+        opacity: 0;
+}
+.work-image:hover .work-overlay{
+    transform: scale(1);
+    opacity: 1;
+}
+/* reward */
+.reward{
+    background-image: url("images/reward.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+.reward-overlay{
+    padding: 40px 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.30);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.reward i{
+padding: 15px 0;
+color: #ffffff;
+font-size: 40px;
+}
+.reward h5{
+font-size: 30px;
+color: #fff;
+font-weight: 700;
+}
+.reward p{
+    font-size: 14px;
+    color: #ffffff;
+}
+/* blogs */
+.blogs{
+    padding: 60px 0;
+}
+.single-blog{}
+.single-blog h5{
+padding: 10px 0;
+font-size: 18px;
+color: #333333;
+font-weight: 700;
+text-transform: uppercase;
+}
+.single-blog p{
+    padding: 15px 0;
+ font-size: 14px;
+ color: #333333;
+}
+.single-blog a{
+    font-size: 14px;
+  text-transform: uppercase;
+}
+/* join  */
+.join-with{
+    padding: 60px 0;
+    background: #50d18d;
+}
+.join-with h4{
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+/* footer */
+footer{
+    padding: 60px 0 10px;
+    background: #000415;
+}
+footer p{
+    color: #888;
+}
+.logo-text{
+    padding: 40px 0;
+}
+.logo-text h6{
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
